@@ -1,5 +1,5 @@
 <template>
-	<div class="singer">
+	<div class="singer" ref="singer">
 		<loading v-show="!singers.length"></loading>
 		<list-view :data="singers" @select="selectSinger"></list-view>
 		<router-view></router-view>
@@ -12,6 +12,10 @@
 	import Singer from '@/common/js/singer'
 	import ListView from '@/base/listView/listView'
 	import Loading from '@/base/loading/loading'
+	
+	import {mapMutations} from 'vuex'
+	
+	
 	const HOT_NAME='热门'
 	const HOT_SINGER_LENGTH=10
 	export default {
@@ -31,6 +35,8 @@
 				this.$router.push({
           			path: `/singer/${singer.id}`
         		})
+				console.log('xxx')
+				this.setSinger(singer)
 			},
 			//获得歌手的数据
 			_getSingers() {
@@ -89,7 +95,10 @@
 				console.log(ret)
 				
 				return hot.concat(ret)
-			}
+			},
+			...mapMutations({
+				setSinger:'SET_SINGER'
+			})
 		}
 	}
 </script>
