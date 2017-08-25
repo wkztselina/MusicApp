@@ -17,7 +17,7 @@ Vue.use(VueLazyLoad,{
 
 /* eslint-disable no-new */
 new Vue({
-  el: '#app',
-  router,
+  	el: '#app',
+  	router,
  	render: h => h(App)
 })
