@@ -1,12 +1,11 @@
 <template>
-	<div class="song-list">
-		<ul>
-			
-		</ul>
-	</div>
 </template>
 
 <script>
+	
+	export default {
+		
+	}
 </script>
 
 <style>
