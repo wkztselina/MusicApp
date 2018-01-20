@@ -38,4 +38,4 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 
 
 
-![image](https://github.com/wkztselina/MusicApp/tree/master/MusicApp/static/1516433078(1).jpg)
+![image](https://github.com/wkztselina/MusicApp/raw/master/MusicApp/static/1516433078(1).jpg)
