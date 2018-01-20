@@ -11,6 +11,9 @@ import store from './store'
 //Vue.config.productionTip = false
 fastclick.attach(document.body)
 
+/* eslint-disable no-unused-vars */
+import vConsole from 'vconsole'
+
 Vue.use(VueLazyLoad,{
 	loading:require('@/common/image/default.png')
 })

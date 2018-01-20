@@ -20,6 +20,8 @@ const matutaions = {
 		state.disc=disc
 	},[types.SET_TOP](state,top){
 		state.top=top
+	},[types.SET_SEARCH_HISTORY](state,hoistory){
+		state.history = hoistory
 	}
 }
 

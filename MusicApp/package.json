@@ -27,7 +27,8 @@
     "vue-lazyload":"^1.0.3",
     "create-keyframe-animation":"^0.1.0",
     "js-base64":"^2.1.9",
-    "lyric-parser":"^1.0.1"
+    "lyric-parser":"^1.0.1",
+    "good-storage":"^1.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -96,7 +97,8 @@
     "webpack-hot-middleware": "^2.18.0",
     "webpack-merge": "^4.1.0",
     "stylus": "^0.54.5",
-    "stylus-loader": "^2.1.1"
+    "stylus-loader": "^2.1.1",
+    "vconsole":"^2.5.2"
   },
   "engines": {
     "node": ">= 4.0.0",

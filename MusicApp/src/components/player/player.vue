@@ -127,8 +127,9 @@
 				if(this.currentLyric){
 					this.currentLyric.stop()
 				}
+				clearTimeout(this.timer)
 				//保证有歌曲获取到
-				setTimeout(() => {
+				this.timer=setTimeout(() => {
 					this.$refs.audio.play()
 					this.getLyric();
 				},1000)
